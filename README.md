@@ -37,5 +37,8 @@ Since the directive is marked as standalone you can directly import it into a mo
 ## Known issues
 - Currently it is not possible to nest menus. It will only work with single-level mat-menus.
 
+## If you like my work, you can
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gamekohl)
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
