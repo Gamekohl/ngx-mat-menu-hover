@@ -9,17 +9,15 @@ This Angular directive provides functionality to handle hover menu behavior, all
 
 Since the directive is marked as standalone you can directly import it into a module.
 
-    import { NgModule } from  '@angular/core';
+    import { Component } from  '@angular/core';
     import { HoverMenuDirective } from  'mat-menu-hover';
     
-    @NgModule({
-    	declarations: [...],
-    	imports: [
-    		HoverMenuDirective
-    	],
-    	exports: [...]
+    @Component({
+        imports: [HoverMenuDirective],
+        selector: 'app-root',
+    	...
    	})
-   	export class AppModule { }
+   	export class AppComponent { }
 
 ## Usage
 
@@ -35,7 +33,7 @@ Since the directive is marked as standalone you can directly import it into a mo
 |(opened)    |Emits if the menu is opened/closed |              |
 
 ## Known issues
-- Currently it is not possible to nest menus. It will only work with single-level mat-menus.
+- Currently, it is not possible to nest menus. It will only work with single-level mat-menus.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
